@@ -1,0 +1,95 @@
+.App {
+  padding: 10%;
+  .controls-components {
+    border-style: solid;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    height: 20rem;
+  }
+  .results-components {
+    border-style: solid;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    height: 10rem;
+  }
+
+  .decrease-button {
+    background-color: rgb(216, 29, 23);
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+  }
+
+  .increase-button {
+    background-color: rgb(21, 18, 156);
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+  }
+  .counts-title-color {
+    color: rgb(46, 184, 189);
+    font-size: larger;
+  }
+  .increase-title-color {
+    color: rgb(21, 18, 156);
+  }
+  .decrease-title-color {
+    color: rgb(216, 29, 23);
+  }
+  .irrelevant-title-color {
+    color: rgb(230, 27, 202);
+    font-size: larger;
+  }
+  .listening-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .listening {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      .listening-img {
+        width: 7em;
+        height: 7rem;
+        border-radius: 50%;
+      }
+    }
+  }
+  .irrelevant-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .irrelevant {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      .irrelevant-img {
+        width: 7em;
+        height: 7rem;
+        border-radius: 50%;
+      }
+    }
+  }
+}
